@@ -21,6 +21,7 @@ integer expenses
 --Calculations--
 1. Multiply work_hours by hourly_rate to get estimated labor cost and store to a new variable, float labor_cost.
 2. Add float expenses to labor_cost to get final estimate, float estimate
+
 --Formatting--
 1. Clean up inputted client name; client_name = client_name.strip().title()
 2. Format number values; I.e. hourly_rate = ("$" + f"{labor_cost:.2f}")
